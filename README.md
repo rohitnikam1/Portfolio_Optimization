@@ -9,4 +9,7 @@
  - Python Pandas library
  
 **Description**:
- - The program calculates historical returns, a covariance matrix, individual stock weigthings that maximize the portfolio Sharpe ratio and the efficient frontier.
+ - The program calculates historical returns, a covariance matrix, individual stock weigthings that maximize the portfolio Sharpe ratio and the efficient frontier, using Mean-Variance (Markovitz) Portfolio Optimization.
+
+**Assumptions**:
+ - The stock returns distribution can be fully described by its first (mean) and second moment (standard deviation). In other words the returns distribution is purely normal.
